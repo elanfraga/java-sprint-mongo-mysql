@@ -3,12 +3,16 @@ package com.elan.cursomc.domain;
 import com.elan.cursomc.domain.enums.EstadoPagamento;
 
 import javax.persistence.Entity;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import java.util.Date;
 
 @Entity
 public class PagamentoComBoleto extends Pagamento{
 
+    @Temporal(TemporalType.DATE)
     private Date dataVencimento;
+    @Temporal(TemporalType.DATE)
     private Date dataPagamento;
 
     public PagamentoComBoleto(){
