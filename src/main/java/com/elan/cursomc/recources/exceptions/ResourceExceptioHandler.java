@@ -1,7 +1,7 @@
 package com.elan.cursomc.recources.exceptions;
 
-import com.elan.cursomc.servicies.exceptions.DataIntegrityException;
-import com.elan.cursomc.servicies.exceptions.ObjectNotFoundException;
+import com.elan.cursomc.services.exceptions.DataIntegrityException;
+import com.elan.cursomc.services.exceptions.ObjectNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

@@ -1,7 +1,7 @@
 package com.elan.cursomc.recources;
 
 import com.elan.cursomc.domain.Pedido;
-import com.elan.cursomc.servicies.PedidoService;
+import com.elan.cursomc.services.PedidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;

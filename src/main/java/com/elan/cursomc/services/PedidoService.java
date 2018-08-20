@@ -1,8 +1,8 @@
-package com.elan.cursomc.servicies;
+package com.elan.cursomc.services;
 
 import com.elan.cursomc.domain.Pedido;
 import com.elan.cursomc.repositories.PedidoRepository;
-import com.elan.cursomc.servicies.exceptions.ObjectNotFoundException;
+import com.elan.cursomc.services.exceptions.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

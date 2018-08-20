@@ -1,4 +1,4 @@
-package com.elan.cursomc.servicies.exceptions;
+package com.elan.cursomc.services.exceptions;
 
 public class ObjectNotFoundException extends RuntimeException{
 
