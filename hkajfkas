@@ -1,0 +1,143 @@
+[33mcommit c43ead1e71322c250df7b9cb93d78773a083aefb[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Mon Aug 20 17:47:38 2018 -0300
+
+    Personalizando o erro de validação
+
+[33mcommit 52eff2caee11f8cf2daef722e3af215bd1d11827[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Mon Aug 20 16:11:33 2018 -0300
+
+    Validação sintática com Bean Validation
+
+[33mcommit 55f5773d73ea93f3aef4e64f111155e8547ac0fd[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Mon Aug 20 15:35:17 2018 -0300
+
+    Paginação com paramentros na requisição
+
+[33mcommit f790cde9573f31a7fb13811071de31a9b9c61385[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Mon Aug 20 11:34:08 2018 -0300
+
+    Listando todas categorias com DTO
+
+[33mcommit 846e5c24ec4b03143aa676678b6822701b7acb36[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Sun Aug 19 16:47:27 2018 -0300
+
+    Atualizando Categoria com PUT, outros pequenos ajustes
+
+[33mcommit 4e6b310e9cc5ecd3520b30744ddbf97ab11cc846[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Sun Aug 19 16:22:19 2018 -0300
+
+    Inserindo uma nova Categoria com POST
+
+[33mcommit 4b715258eb307eec309ecbc4ea205425eaa3a558[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Sun Aug 19 15:49:46 2018 -0300
+
+    Sessao 3 - pdf
+
+[33mcommit fce4d583f1d9774ac6f3b15c0b8f8556b4d0726b[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Sun Aug 19 15:24:30 2018 -0300
+
+    Atualizacao: utilizando somente JsonIgnore
+
+[33mcommit feedd216a58d4fc5999320091a75d24f2ef90e4a[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Sun Aug 19 10:19:50 2018 -0300
+
+    Endpoint /pedido/{id} disponibilizado
+
+[33mcommit 48e8ebef57dc9915d26e1ad1a1f453b2f4546e28[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Sat Aug 18 17:31:29 2018 -0300
+
+    ItemPedido e ItemPedidoPK
+
+[33mcommit 20312f02493a6725a4f885b1f3a793c77195de0c[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Sat Aug 18 12:19:31 2018 -0300
+
+    @Temporal(TemporalType.)
+
+[33mcommit 431a364524176dadf6bb60ccbf8fb0d3f43e1fcb[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Sat Aug 18 12:14:11 2018 -0300
+
+    Pedido, EstadoPagamento e Pagamento
+
+[33mcommit 13395d3539cbb543527810b6911ce3d95163b9ac[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Sat Aug 18 10:26:06 2018 -0300
+
+    Endpoint /clientes/{id} disponivel
+
+[33mcommit 8e06584d2c1dc60d2d23132e6fd2603cf737b17d[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Sat Aug 18 00:34:14 2018 -0300
+
+    Cliente, TipoCliete, telefones e endereços
+
+[33mcommit 26e0325517208b92f4da80546fb708b9cba0560d[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Fri Aug 17 23:36:34 2018 -0300
+
+    Estado e Cidade
+
+[33mcommit 3b8cfb936588a24a143639c9dadbae78756b60fd[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Fri Aug 17 21:33:41 2018 -0300
+
+    Ajustes no endpoint /categorias/{id}
+
+[33mcommit 228581438a5d7acb5f7edc05a3b9ecd879c348aa[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Fri Aug 17 20:45:13 2018 -0300
+
+    Produto e associação muitos para muitos
+
+[33mcommit 4c350da2d66bc112fabc3c45679a541baed9c7c6[m
+Author: Elan Fraga <elan.fraga@zaal.com.br>
+Date:   Fri Aug 17 17:39:31 2018 -0300
+
+    Criando operação de instanciação
+
+[33mcommit 6fb889c897a5b34328f2dc68efceeebe18d75bab[m
+Author: Elan Fraga <elan.fraga@zaal.com.br>
+Date:   Fri Aug 17 16:23:06 2018 -0300
+
+    Criando repository e service para Categoria
+
+[33mcommit 95056e0a97a69871e6222983b1654104903d6ea2[m
+Author: Elan Fraga <elan.fraga@zaal.com.br>
+Date:   Fri Aug 17 15:31:46 2018 -0300
+
+    Banco de dados H2 e criação da  da base de dados
+
+[33mcommit 5205e849a10125fb384793e3c0aa06aa38094e03[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Fri Aug 17 00:15:12 2018 -0300
+
+    Testando a primeira classe de dominio - Categoria
+
+[33mcommit 44bccc354a3c7125979fbee370de23def64a3b47[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Thu Aug 16 23:28:23 2018 -0300
+
+    rest testado
+
+[33mcommit b70d3ee9a1a39c3eae634af380ab662b15e47b40[m
+Author: Elan Fraga <elanfraga@gmail.com>
+Date:   Thu Aug 16 23:06:12 2018 -0300
+
+    projeto criado
+
+[33mcommit 9308cb502dad152136e3f785ef74b128d51ef274[m
+Author: Elan Duarte Fraga <elanfraga@gmail.com>
+Date:   Fri Aug 17 01:46:06 2018 +0000
+
+    Initial commit
