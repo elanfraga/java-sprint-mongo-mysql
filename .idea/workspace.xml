@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115c6fd4-1512-4b7b-92f8-aaa67947fb51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/ClienteNewDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,10 +28,11 @@
     <session id="-963077342">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -39,7 +41,7 @@
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.52" value="2" />
           <entry key="project.open.time.54" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -107,7 +109,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -222,7 +224,59 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+              <item name="domain" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+              <item name="dto" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+              <item name="recources" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+              <item name="recources" type="1f31426a:PackageElementNode" />
+              <item name="exceptions" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+              <item name="repositories" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+              <item name="services" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -334,60 +388,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="domain" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="dto" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="recources" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="recources" type="1f31426a:PackageElementNode" />
-              <item name="exceptions" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="repositories" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="services" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -471,11 +473,12 @@
       <workItem from="1534811012683" duration="4478000" />
       <workItem from="1534903121732" duration="398000" />
       <workItem from="1534903594770" duration="132000" />
+      <workItem from="1534903784892" duration="48000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61789000" />
+    <option name="totallyTimeSpent" value="61837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
