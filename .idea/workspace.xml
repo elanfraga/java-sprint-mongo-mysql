@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115c6fd4-1512-4b7b-92f8-aaa67947fb51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/ClienteNewDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/ClienteService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,37 +34,38 @@
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.52" value="2" />
           <entry key="project.open.time.54" value="2" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="111" />
+          <entry key="java" value="115" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="111" />
+          <entry key="JAVA" value="115" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9892" />
+          <entry key="java" value="10161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9892" />
+          <entry key="JAVA" value="10161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -109,7 +109,54 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/ClienteResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/ClienteService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-163">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/ClienteNewDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-463">
+              <caret line="7" selection-start-line="7" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/ClienteRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -179,10 +226,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/ClienteResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/Cliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/ClienteDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/ClienteService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/CategoriaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/Pagamento.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/ClienteNewDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/ClienteService.java" />
       </list>
     </option>
   </component>
@@ -224,59 +271,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="domain" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="dto" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="recources" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="recources" type="1f31426a:PackageElementNode" />
-              <item name="exceptions" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="repositories" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="services" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -388,8 +384,53 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+              <item name="domain" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+              <item name="dto" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+              <item name="recources" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+              <item name="recources" type="1f31426a:PackageElementNode" />
+              <item name="exceptions" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+              <item name="services" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,7 +440,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534903721710" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534905842199" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/elan/cursomc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -474,14 +515,16 @@
       <workItem from="1534903121732" duration="398000" />
       <workItem from="1534903594770" duration="132000" />
       <workItem from="1534903784892" duration="48000" />
+      <workItem from="1534903850610" duration="1868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61837000" />
+    <option name="totallyTimeSpent" value="63705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -505,7 +548,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32934782" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49947917" weight="0.32131496" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49947917" visible="true" weight="0.21420997" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49947917" visible="true" weight="0.21314952" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -648,13 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/ClienteRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -903,16 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/ClienteResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/CategoriaResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -923,72 +949,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/ClienteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/ClienteNewDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-463">
+          <caret line="7" selection-start-line="7" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/ClienteService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        <state relative-caret-position="-163">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/ClienteNewDTO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/ClienteResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="285">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1425#1426#0" expanded="true" />
-            <element signature="e#1459#1460#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1731#1732#0" expanded="true" />
-            <element signature="e#1757#1758#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1861#1862#0" expanded="true" />
-            <element signature="e#1893#1894#0" expanded="true" />
-            <element signature="e#1943#1944#0" expanded="true" />
-            <element signature="e#1985#1986#0" expanded="true" />
-            <element signature="e#2021#2022#0" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2145#2146#0" expanded="true" />
-            <element signature="e#2181#2182#0" expanded="true" />
-            <element signature="e#2213#2214#0" expanded="true" />
-            <element signature="e#2263#2264#0" expanded="true" />
-            <element signature="e#2305#2306#0" expanded="true" />
-            <element signature="e#2341#2342#0" expanded="true" />
-            <element signature="e#2372#2373#0" expanded="true" />
-            <element signature="e#2421#2422#0" expanded="true" />
-            <element signature="e#2461#2462#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

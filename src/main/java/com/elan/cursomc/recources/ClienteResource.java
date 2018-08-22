@@ -3,6 +3,7 @@ package com.elan.cursomc.recources;
 import com.elan.cursomc.domain.Cliente;
 
 import com.elan.cursomc.dto.ClienteDTO;
+import com.elan.cursomc.dto.ClienteNewDTO;
 import com.elan.cursomc.services.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -31,7 +32,7 @@ public class ClienteResource {
     }
 
     @RequestMapping(method=RequestMethod.POST)
-    public ResponseEntity<Void> insert(@Valid @RequestBody ClienteDTO objDto) {
+    public ResponseEntity<Void> insert(@Valid @RequestBody ClienteNewDTO objDto) {
         Cliente obj = service.fromDTO(objDto);
         obj = service.insert(obj);
         URI uri = ServletUriComponentsBuilder.fromCurrentRequest()
