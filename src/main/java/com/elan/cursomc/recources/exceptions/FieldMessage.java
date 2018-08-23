@@ -3,7 +3,7 @@ package com.elan.cursomc.recources.exceptions;
 public class FieldMessage {
 
     private String fieldName;
-    private String messagem;
+    private String message;
 
     public FieldMessage() {
 
@@ -11,7 +11,7 @@ public class FieldMessage {
 
     public FieldMessage(String fieldName, String message) {
         this.fieldName = fieldName;
-        this.messagem = message;
+        this.message = message;
     }
 
     public String getFieldName() {
@@ -22,11 +22,11 @@ public class FieldMessage {
         this.fieldName = fieldName;
     }
 
-    public String getMessagem() {
-        return messagem;
+    public String getMessage() {
+        return message;
     }
 
-    public void setMessagem(String messagem) {
-        this.messagem = messagem;
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
