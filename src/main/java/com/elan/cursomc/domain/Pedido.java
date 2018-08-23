@@ -1,7 +1,5 @@
 package com.elan.cursomc.domain;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
@@ -46,6 +44,14 @@ public class Pedido implements Serializable {
         this.enderecoDeEntrega = enderecoDeEntrega;
     }
 
+    public Double getValorTotal(){
+        Double soma = 0.0;
+        for (ItemPedido ip: itens ){
+            soma += ip.getSubTotal();
+        }
+
+        return soma;
+    }
 
     public Set<ItemPedido> getItens() {
         return itens;
