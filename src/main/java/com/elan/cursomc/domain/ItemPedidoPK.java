@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.util.Objects;
 
 @Embeddable
-public class ItemPedidoPk  implements Serializable {
+public class ItemPedidoPK implements Serializable {
 
     @ManyToOne
     @JoinColumn(name = "pedido_id")
@@ -39,7 +39,7 @@ public class ItemPedidoPk  implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ItemPedidoPk that = (ItemPedidoPk) o;
+        ItemPedidoPK that = (ItemPedidoPK) o;
         return Objects.equals(pedido, that.pedido) &&
                 Objects.equals(produto, that.produto);
     }
