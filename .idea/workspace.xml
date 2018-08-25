@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/CategoriaService.java" description="import com.elan.cursomc.domain.Categoria;&#10;import c..." line="24" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="115c6fd4-1512-4b7b-92f8-aaa67947fb51" name="Default Changelist" comment="" />
+    <list default="true" id="115c6fd4-1512-4b7b-92f8-aaa67947fb51" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +50,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Procfile" value="1" />
           <entry key="class" value="4" />
           <entry key="java" value="142" />
-          <entry key="properties" value="6" />
+          <entry key="properties" value="8" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -58,21 +61,24 @@
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="JAVA" value="142" />
-          <entry key="Properties" value="6" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="8" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Procfile" value="2" />
           <entry key="java" value="10981" />
-          <entry key="properties" value="45" />
+          <entry key="properties" value="48" />
           <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="10981" />
-          <entry key="Properties" value="45" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="48" />
           <entry key="XML" value="28" />
         </counts>
       </usages-collector>
@@ -128,20 +134,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="26" selection-start-column="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/DevConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -156,8 +153,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="76" selection-start-column="76" selection-end-column="76" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -200,12 +201,12 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="29" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
@@ -213,6 +214,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-prod.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -268,8 +278,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/PedidoRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/enums/EstadoPagamento.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/PagamentoRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/ItemPedidoPk.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/ItemPedidoRepository.java" />
@@ -319,6 +327,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-prod.properties" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -346,7 +356,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="359" />
     <option name="y" value="104" />
     <option name="width" value="880" />
@@ -356,7 +366,7 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -443,7 +453,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535213114836" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535232048894" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/elan/cursomc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aulajpa" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -454,9 +464,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/elan/cursomc" />
-      <recent name="$PROJECT_DIR$/src/main" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.elan.cursomc.services" />
+      <recent name="com.elan.cursomc.services.validation" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.elan.cursomc.services.validation.utils" />
@@ -471,9 +481,9 @@
       <recent name="com.elan.cursomc.services" />
       <recent name="com.elan.cursomc.servicies.exceptions" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.elan.cursomc.services" />
-      <recent name="com.elan.cursomc.services.validation" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/elan/cursomc" />
+      <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -541,12 +551,12 @@
       <workItem from="1535204316845" duration="2229000" />
       <workItem from="1535213134396" duration="482000" />
       <workItem from="1535213700843" duration="629000" />
-      <workItem from="1535221859600" duration="1661000" />
+      <workItem from="1535221859600" duration="2337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96821000" />
+    <option name="totallyTimeSpent" value="97497000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,10 +568,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1920" height="1050" extended-state="7" />
+    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26302084" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26302084" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -583,7 +593,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49947917" weight="0.3207547" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49791667" visible="true" weight="0.42629904" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49791667" visible="true" weight="0.42629904" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -680,20 +690,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/exceptions/ResourceExceptioHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="98" selection-start-line="34" selection-start-column="98" selection-end-line="34" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/exceptions/StandardErro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/ValidationErro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -961,24 +957,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/DevConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" selection-start-line="52" selection-end-line="56" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1005,7 +987,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="29" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1039,6 +1021,34 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" selection-start-line="52" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="76" selection-start-column="76" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
