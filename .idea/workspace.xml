@@ -4,14 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/CategoriaService.java" description="import com.elan.cursomc.domain.Categoria;&#10;import c..." line="24" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="115c6fd4-1512-4b7b-92f8-aaa67947fb51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cursomc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cursomc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/TestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="115c6fd4-1512-4b7b-92f8-aaa67947fb51" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -548,12 +541,12 @@
       <workItem from="1535204316845" duration="2229000" />
       <workItem from="1535213134396" duration="482000" />
       <workItem from="1535213700843" duration="629000" />
-      <workItem from="1535221859600" duration="1061000" />
+      <workItem from="1535221859600" duration="1661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96221000" />
+    <option name="totallyTimeSpent" value="96821000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,7 +558,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <frame x="0" y="30" width="1920" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26302084" />
