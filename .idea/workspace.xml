@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115c6fd4-1512-4b7b-92f8-aaa67947fb51" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elan/cursomc/domain/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elan/cursomc/services/DBService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +30,7 @@
     <session id="-963077342">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="2" />
@@ -49,11 +47,11 @@
           <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="1" />
-          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.47" value="2" />
           <entry key="project.open.time.52" value="2" />
           <entry key="project.open.time.54" value="2" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -61,8 +59,8 @@
           <entry key="Procfile" value="1" />
           <entry key="class" value="4" />
           <entry key="html" value="1" />
-          <entry key="java" value="164" />
-          <entry key="properties" value="14" />
+          <entry key="java" value="171" />
+          <entry key="properties" value="15" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -70,25 +68,25 @@
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="164" />
+          <entry key="JAVA" value="171" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="14" />
+          <entry key="Properties" value="15" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Procfile" value="2" />
-          <entry key="java" value="12487" />
-          <entry key="properties" value="132" />
+          <entry key="java" value="13247" />
+          <entry key="properties" value="208" />
           <entry key="xml" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12487" />
+          <entry key="JAVA" value="13247" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="132" />
+          <entry key="Properties" value="208" />
           <entry key="XML" value="78" />
         </counts>
       </usages-collector>
@@ -145,38 +143,129 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/Cliente.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+            <state relative-caret-position="202">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
-                <element signature="e#2804#2805#0" expanded="true" />
-                <element signature="e#2847#2848#0" expanded="true" />
-                <element signature="e#2980#2981#0" expanded="true" />
-                <element signature="e#2998#2999#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/JacksonConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="101" column="64" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/DevConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/CredenciasDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/SecurityConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/security/JWTUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="345">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2227#2228#0" expanded="true" />
-                <element signature="e#2277#2278#0" expanded="true" />
+                <element signature="e#191#206#1" expanded="true" />
+                <element signature="e#240#259#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/TestConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/security/UserSS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/UserDetailServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -231,10 +320,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/Estado.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/servicies/exceptions/DataIntegrityException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/servicies/CategoriaService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/CategoriaDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/CategoriaResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/exceptions/ResourceExceptioHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/ValidationErro.java" />
@@ -265,7 +350,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/ItemPedido.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-test.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/DevConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/email/confirmacaoPedidl.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/AbstractMailService.java" />
@@ -281,7 +365,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/enums/Perfil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/Cliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/security/UserSS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/UserDetailServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/CredenciasDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/security/JWTUtil.java" />
       </list>
     </option>
   </component>
@@ -310,10 +399,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="359" />
-    <option name="y" value="104" />
-    <option name="width" value="880" />
-    <option name="height" value="777" />
+    <option name="y" value="30" />
+    <option name="width" value="1920" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -323,82 +411,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="config" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="domain" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="domain" type="1f31426a:PackageElementNode" />
-              <item name="enums" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="dto" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="recources" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="recources" type="1f31426a:PackageElementNode" />
-              <item name="exceptions" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="recources" type="1f31426a:PackageElementNode" />
-              <item name="utils" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="services" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="services" type="1f31426a:PackageElementNode" />
-              <item name="validation" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -440,6 +454,34 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+              <item name="config" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
+              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
+              <item name="security" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -449,7 +491,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535414571415" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535423767052" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/elan/cursomc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aulajpa" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -555,12 +597,13 @@
       <workItem from="1535331277314" duration="2310000" />
       <workItem from="1535377408305" duration="5593000" />
       <workItem from="1535412033679" duration="535000" />
-      <workItem from="1535412593748" duration="1977000" />
+      <workItem from="1535412593748" duration="2327000" />
+      <workItem from="1535420295049" duration="3496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113023000" />
+    <option name="totallyTimeSpent" value="116869000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,7 +618,7 @@
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26302084" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -597,7 +640,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49947917" weight="0.3207547" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49791667" visible="true" weight="0.4231177" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49791667" visible="true" weight="0.30222693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -688,34 +731,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/ProdutoDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/validation/utils/BR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/utils/URL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/ClienteRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/CategoriaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -901,9 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -914,20 +926,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/EmailService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -942,19 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="68" column="55" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/JacksonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,16 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/TestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,35 +975,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/DevConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/ClienteDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,6 +1055,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="101" column="64" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/CredenciasDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/JacksonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/DevConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/UserDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/enums/Perfil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1108,34 +1143,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/Cliente.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/security/UserSS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
-            <element signature="e#2804#2805#0" expanded="true" />
-            <element signature="e#2847#2848#0" expanded="true" />
-            <element signature="e#2980#2981#0" expanded="true" />
-            <element signature="e#2998#2999#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="101" column="64" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/SecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/security/JWTUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="345">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2227#2228#0" expanded="true" />
-            <element signature="e#2277#2278#0" expanded="true" />
+            <element signature="e#191#206#1" expanded="true" />
+            <element signature="e#240#259#1" expanded="true" />
           </folding>
         </state>
       </provider>
