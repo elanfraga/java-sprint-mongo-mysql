@@ -1,5 +1,6 @@
 package com.elan.cursomc.services;
 
+import com.elan.cursomc.domain.Cliente;
 import com.elan.cursomc.domain.ItemPedido;
 import com.elan.cursomc.domain.PagamentoComBoleto;
 import com.elan.cursomc.domain.Pedido;
@@ -7,10 +8,16 @@ import com.elan.cursomc.domain.enums.EstadoPagamento;
 import com.elan.cursomc.repositories.ItemPedidoRepository;
 import com.elan.cursomc.repositories.PagamentoRepository;
 import com.elan.cursomc.repositories.PedidoRepository;
+import com.elan.cursomc.security.UserSS;
+import com.elan.cursomc.services.exceptions.AutorizationException;
 import com.elan.cursomc.services.exceptions.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.Date;
 import java.util.Optional;
 
@@ -44,6 +51,7 @@ public class PedidoService {
                 "Objeto não encontrado! Id: " + id + ", Tipo: " + Pedido.class.getName()));
     }
 
+    @Transactional
     public Pedido insert(Pedido obj) {
         obj.setId(null);
         obj.setInstante(new Date());
@@ -69,4 +77,17 @@ public class PedidoService {
         emailService.sendOrderConfirmationHtmlEmail(obj);
         return obj;
     }
+
+    public Page<Pedido> findPage(Integer page, Integer linesPerPage, String orderBy, String direction) {
+
+        UserSS user = UserService.autenticated();
+        if (user == null){
+            throw new AutorizationException("Acesso negado");
+        }
+
+        PageRequest pageRequest = PageRequest.of(page, linesPerPage, Sort.Direction.valueOf(direction), orderBy);
+        Cliente cliente = clienteService.find(user.getId());
+        return repo.findByCliente(cliente, pageRequest);
+    }
+
 }
