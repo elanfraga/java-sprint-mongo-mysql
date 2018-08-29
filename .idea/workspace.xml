@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115c6fd4-1512-4b7b-92f8-aaa67947fb51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/PedidoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/PedidoResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/PedidoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/PedidoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/ClienteService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/PedidoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/ProdutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/UserService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +59,7 @@
           <entry key="Procfile" value="1" />
           <entry key="class" value="4" />
           <entry key="html" value="1" />
-          <entry key="java" value="194" />
+          <entry key="java" value="196" />
           <entry key="properties" value="15" />
           <entry key="xml" value="2" />
         </counts>
@@ -69,7 +68,7 @@
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="194" />
+          <entry key="JAVA" value="196" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="15" />
           <entry key="XML" value="2" />
@@ -78,14 +77,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Procfile" value="2" />
-          <entry key="java" value="13968" />
+          <entry key="java" value="14019" />
           <entry key="properties" value="208" />
           <entry key="xml" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13968" />
+          <entry key="JAVA" value="14019" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="208" />
           <entry key="XML" value="78" />
@@ -145,27 +144,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/EnderecoRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/CategoriaRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/CategoriaResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
+            <state relative-caret-position="765">
               <caret line="64" selection-start-line="64" selection-end-line="73" selection-end-column="5" />
             </state>
           </provider>
@@ -189,11 +170,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/PedidoResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+            <state relative-caret-position="500">
+              <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,8 +194,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/PedidoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="82" selection-end-column="49" />
+            <state relative-caret-position="305">
+              <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/AuthResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -283,7 +285,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/ClienteRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/validation/ClienteInsertValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/ProdutoDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/utils/URL.java" />
@@ -325,7 +326,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/CategoriaResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/ClienteResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/exceptions/AutorizationException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/ClienteService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/security/UserSS.java" />
@@ -334,6 +334,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/ProdutoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/PedidoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/PedidoResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/AuthResource.java" />
       </list>
     </option>
   </component>
@@ -493,7 +495,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535505204278" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535506348803" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/elan/cursomc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aulajpa" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -602,12 +604,12 @@
       <workItem from="1535412593748" duration="2327000" />
       <workItem from="1535420295049" duration="3496000" />
       <workItem from="1535478110174" duration="6331000" />
-      <workItem from="1535498452066" duration="4707000" />
+      <workItem from="1535498452066" duration="5708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127907000" />
+    <option name="totallyTimeSpent" value="128908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -622,7 +624,7 @@
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947916" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947916" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -644,7 +646,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49947917" weight="0.3207547" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49791667" visible="true" weight="0.33722162" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49791667" visible="true" weight="0.33722162" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -713,20 +715,6 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/PedidoResource.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/PedidoResource.java</url>
-          <line>29</line>
-          <properties class="com.elan.cursomc.recources.PedidoResource" method="insert">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -735,13 +723,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/PagamentoComCartao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/PagamentoComBoleto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1050,16 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/exceptions/AutorizationException.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1136,13 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/PedidoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="82" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/CategoriaService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -1155,13 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/CategoriaResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="64" selection-start-line="64" selection-end-line="73" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/PedidoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1171,11 +1128,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/PedidoResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        <state relative-caret-position="500">
+          <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/PedidoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/CategoriaResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="64" selection-start-line="64" selection-end-line="73" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/AuthResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
