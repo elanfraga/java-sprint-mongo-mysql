@@ -3,11 +3,14 @@ package com.elan.cursomc.services;
 import com.elan.cursomc.domain.Cidade;
 import com.elan.cursomc.domain.Cliente;
 import com.elan.cursomc.domain.Endereco;
+import com.elan.cursomc.domain.enums.Perfil;
 import com.elan.cursomc.domain.enums.TipoCliente;
 import com.elan.cursomc.dto.ClienteDTO;
 import com.elan.cursomc.dto.ClienteNewDTO;
 import com.elan.cursomc.repositories.ClienteRepository;
 import com.elan.cursomc.repositories.EnderecoRepository;
+import com.elan.cursomc.security.UserSS;
+import com.elan.cursomc.services.exceptions.AutorizationException;
 import com.elan.cursomc.services.exceptions.DataIntegrityException;
 import com.elan.cursomc.services.exceptions.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +37,11 @@ public class ClienteService {
     private BCryptPasswordEncoder pe;
 
     public Cliente find(Integer id){
+
+        UserSS user  = UserService.authenticated();
+        if (user == null || !user.hasRole(Perfil.ADMIN) && !id.equals(user.getId())){
+            throw new AutorizationException("Acesso negado");
+        }
 
         Optional<Cliente> obj = repo.findById(id);
 

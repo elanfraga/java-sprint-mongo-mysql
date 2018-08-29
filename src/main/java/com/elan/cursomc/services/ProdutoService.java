@@ -39,4 +39,6 @@ public class ProdutoService {
         return repo.findDistinctByNomeContainingAndCategoriasIn(nome, categorias, pageRequest);
     }
 
+
+
 }
