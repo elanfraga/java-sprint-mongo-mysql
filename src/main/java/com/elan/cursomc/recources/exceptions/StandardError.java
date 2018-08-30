@@ -2,13 +2,13 @@ package com.elan.cursomc.recources.exceptions;
 
 import java.io.Serializable;
 
-public class StandardErro implements Serializable {
+public class StandardError implements Serializable {
 
     private Integer Status;
     private String msg;
     private Long timeStamp;
 
-    public StandardErro(Integer status, String msg, Long timeStamp) {
+    public StandardError(Integer status, String msg, Long timeStamp) {
         Status = status;
         this.msg = msg;
         this.timeStamp = timeStamp;

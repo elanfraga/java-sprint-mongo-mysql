@@ -1,12 +1,12 @@
 package com.elan.cursomc.recources;
 
 import com.elan.cursomc.recources.exceptions.FieldMessage;
-import com.elan.cursomc.recources.exceptions.StandardErro;
+import com.elan.cursomc.recources.exceptions.StandardError;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ValidationErro  extends StandardErro {
+public class ValidationErro  extends StandardError {
 
     List<FieldMessage> erros = new ArrayList<>();
 
