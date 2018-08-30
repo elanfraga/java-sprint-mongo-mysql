@@ -9,7 +9,7 @@ import com.elan.cursomc.repositories.ItemPedidoRepository;
 import com.elan.cursomc.repositories.PagamentoRepository;
 import com.elan.cursomc.repositories.PedidoRepository;
 import com.elan.cursomc.security.UserSS;
-import com.elan.cursomc.services.exceptions.AutorizationException;
+import com.elan.cursomc.services.exceptions.AuthorizationException;
 import com.elan.cursomc.services.exceptions.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -82,7 +82,7 @@ public class PedidoService {
 
         UserSS user = UserService.authenticated();
         if (user == null){
-            throw new AutorizationException("Acesso negado");
+            throw new AuthorizationException("Acesso negado");
         }
 
         PageRequest pageRequest = PageRequest.of(page, linesPerPage, Sort.Direction.valueOf(direction), orderBy);

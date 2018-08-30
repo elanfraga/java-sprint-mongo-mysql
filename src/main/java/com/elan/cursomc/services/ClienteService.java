@@ -1,5 +1,21 @@
 package com.elan.cursomc.services;
 
+import java.awt.image.BufferedImage;
+import java.net.URI;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort.Direction;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.multipart.MultipartFile;
+
 import com.elan.cursomc.domain.Cidade;
 import com.elan.cursomc.domain.Cliente;
 import com.elan.cursomc.domain.Endereco;
@@ -10,49 +26,41 @@ import com.elan.cursomc.dto.ClienteNewDTO;
 import com.elan.cursomc.repositories.ClienteRepository;
 import com.elan.cursomc.repositories.EnderecoRepository;
 import com.elan.cursomc.security.UserSS;
-import com.elan.cursomc.services.exceptions.AutorizationException;
+import com.elan.cursomc.services.exceptions.AuthorizationException;
 import com.elan.cursomc.services.exceptions.DataIntegrityException;
 import com.elan.cursomc.services.exceptions.ObjectNotFoundException;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataIntegrityViolationException;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.multipart.MultipartFile;
-
-import java.net.URI;
-import java.util.List;
-import java.util.Optional;
 
 @Service
 public class ClienteService {
 
     @Autowired
-    ClienteRepository repo;
+    private ClienteRepository repo;
+
     @Autowired
-    EnderecoRepository enderecoRepository;
+    private EnderecoRepository enderecoRepository;
 
     @Autowired
     private BCryptPasswordEncoder pe;
 
     @Autowired
-    S3Service s3Service;
+    private S3Service s3Service;
 
-    public Cliente find(Integer id){
+    @Autowired
+    private ImageService imageService;
 
-        UserSS user  = UserService.authenticated();
-        if (user == null || !user.hasRole(Perfil.ADMIN) && !id.equals(user.getId())){
-            throw new AutorizationException("Acesso negado");
+    @Value("${img.prefix.client.profile}")
+    private String prefix;
+
+    public Cliente find(Integer id) {
+
+        UserSS user = UserService.authenticated();
+        if (user==null || !user.hasRole(Perfil.ADMIN) && !id.equals(user.getId())) {
+            throw new AuthorizationException("Acesso negado");
         }
 
         Optional<Cliente> obj = repo.findById(id);
-
         return obj.orElseThrow(() -> new ObjectNotFoundException(
                 "Objeto não encontrado! Id: " + id + ", Tipo: " + Cliente.class.getName()));
-
     }
 
     @Transactional
@@ -75,7 +83,7 @@ public class ClienteService {
             repo.deleteById(id);
         }
         catch (DataIntegrityViolationException e) {
-            throw new DataIntegrityException("Não é possível cliente com pedidos");
+            throw new DataIntegrityException("Não é possível excluir porque há pedidos relacionados");
         }
     }
 
@@ -84,15 +92,15 @@ public class ClienteService {
     }
 
     public Page<Cliente> findPage(Integer page, Integer linesPerPage, String orderBy, String direction) {
-        PageRequest pageRequest = PageRequest.of(page, linesPerPage, Sort.Direction.valueOf(direction), orderBy);
+        PageRequest pageRequest = PageRequest.of(page, linesPerPage, Direction.valueOf(direction), orderBy);
         return repo.findAll(pageRequest);
     }
 
-    public Cliente fromDTO(ClienteDTO objDto){
-        return  new Cliente(objDto.getId(), objDto.getNome(), objDto.getEmail(), null, null, null);
+    public Cliente fromDTO(ClienteDTO objDto) {
+        return new Cliente(objDto.getId(), objDto.getNome(), objDto.getEmail(), null, null, null);
     }
 
-    public Cliente fromDTO(ClienteNewDTO objDto){
+    public Cliente fromDTO(ClienteNewDTO objDto) {
         Cliente cli = new Cliente(null, objDto.getNome(), objDto.getEmail(), objDto.getCpfOuCnpj(), TipoCliente.toEnum(objDto.getTipo()), pe.encode(objDto.getSenha()));
         Cidade cid = new Cidade(objDto.getCidadeId(), null, null);
         Endereco end = new Endereco(null, objDto.getLogradouro(), objDto.getNumero(), objDto.getComplemento(), objDto.getBairro(), objDto.getCep(), cli, cid);
@@ -103,29 +111,24 @@ public class ClienteService {
         }
         if (objDto.getTelefone3()!=null) {
             cli.getTelefones().add(objDto.getTelefone3());
-
         }
-
         return cli;
-
     }
 
-    private void updateData(Cliente newObj, Cliente obj){
+    private void updateData(Cliente newObj, Cliente obj) {
         newObj.setNome(obj.getNome());
         newObj.setEmail(obj.getEmail());
     }
 
     public URI uploadProfilePicture(MultipartFile multipartFile) {
-        UserSS user  = UserService.authenticated();
-        if (user == null){
-            throw new AutorizationException("Acesso negado");
+        UserSS user = UserService.authenticated();
+        if (user == null) {
+            throw new AuthorizationException("Acesso negado");
         }
 
-        URI uri = s3Service.uploadFile(multipartFile);
-        Cliente cli = find(user.getId());
-        cli.setImageUrl(uri.toString());
-        repo.save(cli);
+        BufferedImage jpgImage = imageService.getJpgImageFromFile(multipartFile);
+        String fileName = prefix + user.getId() + ".jpg";
 
-        return uri;
+        return s3Service.uploadFile(imageService.getInputStream(jpgImage, "jpg"), fileName, "image");
     }
 }

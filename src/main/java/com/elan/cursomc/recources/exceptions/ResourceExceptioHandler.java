@@ -4,7 +4,7 @@ import com.amazonaws.AmazonClientException;
 import com.amazonaws.AmazonServiceException;
 import com.amazonaws.services.s3.model.AmazonS3Exception;
 import com.elan.cursomc.recources.ValidationErro;
-import com.elan.cursomc.services.exceptions.AutorizationException;
+import com.elan.cursomc.services.exceptions.AuthorizationException;
 import com.elan.cursomc.services.exceptions.DataIntegrityException;
 import com.elan.cursomc.services.exceptions.FileException;
 import com.elan.cursomc.services.exceptions.ObjectNotFoundException;
@@ -45,7 +45,7 @@ public class ResourceExceptioHandler {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(err);
     }
 
-    @ExceptionHandler(AutorizationException.class)
+    @ExceptionHandler(AuthorizationException.class)
     public ResponseEntity<StandardError> autorization(ObjectNotFoundException e, HttpServletRequest request) {
 
         StandardError err = new StandardError(HttpStatus.FORBIDDEN.value(), e.getMessage(), System.currentTimeMillis());
