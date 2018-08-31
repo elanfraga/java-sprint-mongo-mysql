@@ -24,7 +24,7 @@ public class ClienteResource {
     @Autowired
     ClienteService service;
 
-    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    @GetMapping(value = "/{id}")
     public ResponseEntity<Cliente> find(@PathVariable Integer id){
 
         Cliente obj = service.find(id);
@@ -32,7 +32,7 @@ public class ClienteResource {
 
     }
 
-    @RequestMapping(method=RequestMethod.POST)
+    @PostMapping
     public ResponseEntity<Void> insert(@Valid @RequestBody ClienteNewDTO objDto) {
         Cliente obj = service.fromDTO(objDto);
         obj = service.insert(obj);
@@ -42,7 +42,7 @@ public class ClienteResource {
     }
 
 
-    @RequestMapping(value="/{id}", method=RequestMethod.PUT)
+    @PutMapping("/{id}")
     public ResponseEntity<Void> update(@Valid @RequestBody ClienteDTO objDto, @PathVariable Integer id) {
         Cliente obj = service.fromDTO(objDto);
         obj.setId(id);

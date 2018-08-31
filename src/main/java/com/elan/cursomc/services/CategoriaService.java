@@ -1,8 +1,8 @@
-        package com.elan.cursomc.services;
+package com.elan.cursomc.services;
 
-        import com.elan.cursomc.domain.Categoria;
-        import com.elan.cursomc.dto.CategoriaDTO;
-        import com.elan.cursomc.repositories.CategoriaRepository;
+import com.elan.cursomc.domain.Categoria;
+import com.elan.cursomc.dto.CategoriaDTO;
+import com.elan.cursomc.repositories.CategoriaRepository;
 import com.elan.cursomc.services.exceptions.DataIntegrityException;
 import com.elan.cursomc.services.exceptions.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
