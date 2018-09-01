@@ -13,12 +13,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class JWTAutorizationFilter extends BasicAuthenticationFilter {
+public class JWTAuthorizationFilter extends BasicAuthenticationFilter {
 
     private JWTUtil jwtUtil;
     private UserDetailsService userDetailsService;
 
-    public JWTAutorizationFilter(AuthenticationManager authenticationManager, JWTUtil jwtUtil, UserDetailsService userDetailsService) {
+    public JWTAuthorizationFilter(AuthenticationManager authenticationManager, JWTUtil jwtUtil, UserDetailsService userDetailsService) {
         super(authenticationManager);
         this.jwtUtil = jwtUtil;
         this.userDetailsService = userDetailsService;
