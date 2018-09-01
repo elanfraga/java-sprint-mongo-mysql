@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="115c6fd4-1512-4b7b-92f8-aaa67947fb51" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/ValidationErro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/exceptions/ValidationError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/exceptions/ResourceExceptioHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/exceptions/ResourceExceptioHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/exceptions/StandardError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/exceptions/StandardError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elan/cursomc/recources/ValidationErro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elan/cursomc/recources/exceptions/ResourceExceptioHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elan/cursomc/recources/exceptions/StandardError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +58,7 @@
           <entry key="Procfile" value="1" />
           <entry key="class" value="4" />
           <entry key="html" value="1" />
-          <entry key="java" value="179" />
+          <entry key="java" value="181" />
           <entry key="properties" value="15" />
           <entry key="xml" value="3" />
         </counts>
@@ -72,7 +67,7 @@
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="179" />
+          <entry key="JAVA" value="181" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="15" />
           <entry key="XML" value="3" />
@@ -81,14 +76,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Procfile" value="2" />
-          <entry key="java" value="13397" />
+          <entry key="java" value="13415" />
           <entry key="properties" value="208" />
           <entry key="xml" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13397" />
+          <entry key="JAVA" value="13415" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="208" />
           <entry key="XML" value="78" />
@@ -250,17 +245,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/exceptions/ValidationError.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#485#486#0" expanded="true" />
                 <element signature="e#513#514#0" expanded="true" />
                 <element signature="e#575#576#0" expanded="true" />
                 <element signature="e#639#640#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="189" column="64" selection-start-line="189" selection-start-column="64" selection-end-line="189" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/ProdutoResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -325,7 +338,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/ClienteDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/ClienteNewDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/enums/Perfil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/CredenciasDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/CredenciaisDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/security/UserSS.java" />
@@ -358,6 +370,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/exceptions/ValidationErro.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/exceptions/ResourceExceptioHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/exceptions/ValidationError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java" />
       </list>
     </option>
   </component>
@@ -512,19 +525,6 @@
               <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
               <item name="security" type="1f31426a:PackageElementNode" />
             </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="services" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="cursomc" type="58d84e3e:PackageViewProjectNode" />
-              <item name="cursomc" type="616d4139:PackageViewModuleNode" />
-              <item name="com.elan.cursomc" type="1f31426a:PackageElementNode" />
-              <item name="services" type="1f31426a:PackageElementNode" />
-              <item name="exceptions" type="1f31426a:PackageElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -537,10 +537,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="jwt&#9;FILE&#9;file://C:/Curso/Udemy/cursomc/src/main/java/com/elan/cursomc/security/JWTUtil.java&#10;ClienteInsert&#9;PSI&#9;JAVA://com.elan.cursomc.services.validation.ClienteInsert" />
+    <property name="SearchEverywhereHistoryKey" value="dbser&#9;FILE&#9;file:///home/elan/IdeaProjects/UdemySpringBoot/cursomc/src/main/java/com/elan/cursomc/services/DBService.java&#10;jwt&#9;FILE&#9;file://C:/Curso/Udemy/cursomc/src/main/java/com/elan/cursomc/security/JWTUtil.java&#10;ClienteInsert&#9;PSI&#9;JAVA://com.elan.cursomc.services.validation.ClienteInsert" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535767520247" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535768533199" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/elan/cursomc" />
     <property name="last_opened_file_path" value="C:/Projetos/ZaalAtendimentoWebService" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -658,12 +658,12 @@
       <workItem from="1535722644286" duration="1209000" />
       <workItem from="1535738907648" duration="1213000" />
       <workItem from="1535746893474" duration="3575000" />
-      <workItem from="1535765457593" duration="2126000" />
+      <workItem from="1535765457593" duration="3074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153997000" />
+    <option name="totallyTimeSpent" value="154945000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,6 +676,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20811099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -848,13 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/ProdutoResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/dto/ClienteNewDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -978,13 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="89" column="2" lean-forward="true" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1214,14 +1201,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/exceptions/ValidationError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="330">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#485#486#0" expanded="true" />
             <element signature="e#513#514#0" expanded="true" />
             <element signature="e#575#576#0" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="189" column="64" selection-start-line="189" selection-start-column="64" selection-end-line="189" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/ProdutoResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
