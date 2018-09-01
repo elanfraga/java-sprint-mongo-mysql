@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115c6fd4-1512-4b7b-92f8-aaa67947fb51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +59,7 @@
           <entry key="class" value="4" />
           <entry key="html" value="1" />
           <entry key="java" value="185" />
-          <entry key="properties" value="15" />
+          <entry key="properties" value="16" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
@@ -69,7 +69,7 @@
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="185" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="15" />
+          <entry key="Properties" value="16" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -77,7 +77,7 @@
         <counts>
           <entry key="Procfile" value="2" />
           <entry key="java" value="13527" />
-          <entry key="properties" value="208" />
+          <entry key="properties" value="210" />
           <entry key="xml" value="78" />
         </counts>
       </usages-collector>
@@ -85,7 +85,7 @@
         <counts>
           <entry key="JAVA" value="13527" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="208" />
+          <entry key="Properties" value="210" />
           <entry key="XML" value="78" />
         </counts>
       </usages-collector>
@@ -157,11 +157,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/CategoriaResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -171,18 +180,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="52" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/recources/EstadoResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -339,7 +336,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/domain/Cliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/S3Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/CategoriaService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/ImageService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/repositories/ProdutoRepository.java" />
@@ -361,6 +357,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/DBService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/elan/cursomc/filters/HeaderExposureFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -626,12 +623,12 @@
       <workItem from="1535746893474" duration="3575000" />
       <workItem from="1535765457593" duration="4432000" />
       <workItem from="1535833703524" duration="1191000" />
-      <workItem from="1535836919129" duration="529000" />
+      <workItem from="1535836919129" duration="1158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158023000" />
+    <option name="totallyTimeSpent" value="158652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -662,13 +659,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287858" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.4994664" weight="0.32826087" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4994664" weight="0.32608697" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4994664" visible="true" weight="0.32608697" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026681" side_tool="true" weight="0.3630435" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49786553" weight="0.3173913" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3287858" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49947917" weight="0.3195652" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49733192" visible="true" weight="0.3630435" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49733192" weight="0.3630435" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -994,13 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/elan/cursomc/services/exceptions/FileException.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1153,6 +1143,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
         </state>
       </provider>
     </entry>
