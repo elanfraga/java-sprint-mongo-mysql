@@ -3,6 +3,9 @@ package com.elan.cursomc.recources;
 import com.elan.cursomc.domain.Categoria;
 import com.elan.cursomc.dto.CategoriaDTO;
 import com.elan.cursomc.services.CategoriaService;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
@@ -22,12 +25,14 @@ public class CategoriaResource {
     @Autowired
     private CategoriaService service;
 
+    @ApiOperation(value="Busca por id")
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public ResponseEntity<Categoria> find(@PathVariable Integer id){
         Categoria obj = service.find(id);
         return ResponseEntity.ok().body(obj);
     }
 
+    @ApiOperation(value="Inssere categoria")
     @PreAuthorize("hasAnyRole('ADMIN')")
     @RequestMapping(method=RequestMethod.POST)
     public ResponseEntity<Void> insert(@Valid @RequestBody CategoriaDTO objDto) {
@@ -47,6 +52,10 @@ public class CategoriaResource {
         return ResponseEntity.noContent().build();
     }
 
+    @ApiResponses(value = {
+            @ApiResponse(code = 400, message = "Não é possível excluir uma categoria que possui produtos"),
+            @ApiResponse(code = 404, message = "Código inexistente") })
+    @ApiOperation(value="Remove categoria")
     @PreAuthorize("hasAnyRole('ADMIN')")
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<Void> delete(@PathVariable Integer id){
